@@ -1,0 +1,31 @@
+local Config = {
+    SelectedVape = "Default",
+    Vapes = {
+        Default = {
+            Speed = 2,
+            JumpPower = 50,
+            AutoSprint = true,
+            NoFallDamage = true,
+            NoClip = true,
+            Fly = false
+        },
+        Speedy = {
+            Speed = 3,
+            JumpPower = 100,
+            AutoSprint = true,
+            NoFallDamage = true,
+            NoClip = true,
+            Fly = false
+        },
+        Ghost = {
+            Speed = 2,
+            JumpPower = 50,
+            AutoSprint = true,
+            NoFallDamage = true,
+            NoClip = true,
+            Fly = true
+        }
+    }
+}
+
+return Config
